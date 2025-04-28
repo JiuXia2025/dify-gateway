@@ -1,0 +1,19 @@
+dify:
+  api_key: app-xxxxxxxxxxxxxxxxxx
+  #API密钥
+  api_url: https://api.dify.ai/v1
+  #API地址
+
+model:
+  id: Deepseek-Dify
+  #模型ID
+  object: model
+  #模型类型（不建议修改）
+  created: 1686935002
+  #创建时间
+  owned_by: JiuXia2025
+  #模型所有者
+
+server:
+  port: 8089
+  #服务端口
