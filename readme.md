@@ -32,6 +32,8 @@ server:
 
 ## 安装和使用
 
+#### 方式一：自己构建
+
 1. 克隆项目：
 
 ```bash
@@ -53,6 +55,29 @@ go mod download
 
 ```bash
 go run main.go
+```
+
+服务将在配置的端口（默认 8089）启动。
+
+#### 方法二：使用发布的构建成品(无需构建)
+
+1. 下载软件：
+
+前往[Releases](https://github.com/JiuXia2025/dify-gateway/releases)页面下载对应系统的构建成品
+
+2. 修改配置文件：
+
+编辑 `app.yaml` 文件，填入您的 Dify API 密钥和其他配置。
+
+3. 运行服务：
+
+```bash
+Linux：
+./dify-gateway
+
+Windows：
+.\dify-gateway.exe
+或双击启动exe
 ```
 
 服务将在配置的端口（默认 8089）启动。
