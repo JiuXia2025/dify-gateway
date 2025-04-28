@@ -1,6 +1,6 @@
 # Dify Gateway
 
-这是一个由JiuXia2025编写的基于 Gin 框架的 Dify API 网关服务，用于将 OpenAI 格式的 API 请求转换为 Dify API 请求，支持模型交互时流式传输。
+这是一个由JiuXia2025编写的基于 Gin 框架的 Dify API 网关服务，用于将 Dify 格式的 API 请求转换为 OpenAI API 请求，支持模型交互时流式传输。
 
 ## 功能特点
 
